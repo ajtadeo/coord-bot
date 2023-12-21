@@ -1,0 +1,24 @@
+{
+  "name": "coord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for saving and organizing Minecraft world coordinates.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "register": "node commands.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Alyssa Tadeo",
+  "type": "module",
+  "dependencies": {
+    "discord-interactions": "^3.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
